@@ -1,0 +1,379 @@
+2024-07-30 00:09:36.401 [DatartScheduleCluster_Worker-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572259
+2024-07-30 00:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 00:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 01:09:36.398 [DatartScheduleCluster_Worker-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572269
+2024-07-30 01:46:03.841 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 115069
+2024-07-30 01:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 01:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 02:09:36.404 [DatartScheduleCluster_Worker-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1412547
+2024-07-30 02:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 02:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 03:09:36.398 [DatartScheduleCluster_Worker-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572268
+2024-07-30 03:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 03:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 04:09:36.400 [DatartScheduleCluster_Worker-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572272
+2024-07-30 04:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 04:58:43.270 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 05:09:36.401 [DatartScheduleCluster_Worker-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1570932
+2024-07-30 05:58:49.295 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 05:58:49.295 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 06:09:36.405 [DatartScheduleCluster_Worker-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572274
+2024-07-30 06:14:14.877 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 278463
+2024-07-30 06:43:24.122 [DatartScheduleCluster_Worker-4] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1749235
+2024-07-30 06:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 06:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 07:09:36.403 [DatartScheduleCluster_Worker-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572274
+2024-07-30 07:35:01.907 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 635390
+2024-07-30 07:43:24.124 [DatartScheduleCluster_Worker-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 502210
+2024-07-30 07:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 07:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 08:09:36.399 [DatartScheduleCluster_Worker-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572265
+2024-07-30 08:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 08:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 09:02:14.908 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_MisfireHandler] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1130629
+2024-07-30 09:09:36.401 [DatartScheduleCluster_Worker-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 441487
+2024-07-30 09:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 09:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 10:09:36.396 [DatartScheduleCluster_Worker-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572272
+2024-07-30 10:58:49.295 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 10:58:49.295 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 11:09:36.399 [DatartScheduleCluster_Worker-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572271
+2024-07-30 11:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 11:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 12:09:36.402 [DatartScheduleCluster_Worker-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 797876
+2024-07-30 12:09:36.403 [DatartScheduleCluster_Worker-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 797890
+2024-07-30 12:13:14.964 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 218554
+2024-07-30 12:43:24.117 [DatartScheduleCluster_Worker-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1809143
+2024-07-30 12:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 12:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 13:09:36.403 [DatartScheduleCluster_Worker-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572281
+2024-07-30 13:53:28.686 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 575354
+2024-07-30 13:58:49.295 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 13:58:49.295 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 14:09:36.402 [DatartScheduleCluster_Worker-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 967700
+2024-07-30 14:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 14:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 15:09:36.400 [DatartScheduleCluster_Worker-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572271
+2024-07-30 15:24:51.287 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 914879
+2024-07-30 15:43:24.121 [DatartScheduleCluster_Worker-2] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 713668
+2024-07-30 15:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 15:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 16:09:36.398 [DatartScheduleCluster_Worker-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1570550
+2024-07-30 16:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 16:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 17:09:36.402 [DatartScheduleCluster_Worker-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572272
+2024-07-30 17:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 17:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 17:58:50.892 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 925574
+2024-07-30 18:09:36.395 [DatartScheduleCluster_Worker-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 645494
+2024-07-30 18:43:24.117 [DatartScheduleCluster_Worker-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1084906
+2024-07-30 18:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 18:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 19:09:36.400 [DatartScheduleCluster_Worker-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1571517
+2024-07-30 19:10:55.838 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 79430
+2024-07-30 19:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 19:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 20:09:36.400 [DatartScheduleCluster_Worker-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572276
+2024-07-30 20:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 20:58:49.296 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 21:09:36.395 [DatartScheduleCluster_Worker-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572274
+2024-07-30 21:20:07.146 [Druid-ConnectionPool-Create-86384329] ERROR com.alibaba.druid.pool.DruidDataSource : create connection SQLException, url: jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1652)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2785)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 9 common frames omitted
+2024-07-30 21:20:07.146 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] ERROR com.alibaba.druid.pool.DruidDataSource : discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-30 21:20:07.147 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  o.s.scheduling.quartz.LocalDataSourceJobStore : Failed to override connection auto commit/transaction isolation.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-30 21:20:07.149 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  o.q.i.j.AttributeRestoringConnectionInvocationHandler : Failed restore connection's original auto commit setting.
+java.sql.SQLException: connection disabled
+	at com.alibaba.druid.pool.DruidPooledConnection.checkStateInternal(DruidPooledConnection.java:1170)
+	at com.alibaba.druid.pool.DruidPooledConnection.checkState(DruidPooledConnection.java:1155)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:703)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.restoreOriginalAtributes(AttributeRestoringConnectionInvocationHandler.java:141)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.cleanupConnection(JobStoreSupport.java:3677)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3363)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	... 2 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-30 21:20:07.150 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] ERROR o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Error managing cluster: Failure identifying failed instances when checking-in: connection disabled
+org.quartz.JobPersistenceException: Failure identifying failed instances when checking-in: connection disabled
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3420)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.clusterCheckIn(JobStoreSupport.java:3470)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3330)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: java.sql.SQLException: connection disabled
+	at com.alibaba.druid.pool.DruidPooledConnection.checkStateInternal(DruidPooledConnection.java:1170)
+	at com.alibaba.druid.pool.DruidPooledConnection.checkState(DruidPooledConnection.java:1155)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:338)
+	at sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy238.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectSchedulerStateRecords(StdJDBCDelegate.java:2992)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3384)
+	... 4 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	... 2 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 23,140 milliseconds ago. The last packet sent successfully to the server was 23,141 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-30 21:43:07.990 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1380631
+2024-07-30 21:43:07.992 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1380689
+2024-07-30 21:58:52.154 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 21:58:52.154 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 22:09:36.400 [DatartScheduleCluster_Worker-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572276
+2024-07-30 22:30:04.706 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1228299
+2024-07-30 22:43:24.122 [DatartScheduleCluster_Worker-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 799406
+2024-07-30 22:58:52.155 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 22:58:52.155 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-30 23:09:36.397 [DatartScheduleCluster_Worker-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1572269
+2024-07-30 23:25:31.807 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721926668621_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 955403
+2024-07-30 23:43:24.123 [DatartScheduleCluster_Worker-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1072304
+2024-07-30 23:58:52.154 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-30 23:58:52.154 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.

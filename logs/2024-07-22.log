@@ -1,0 +1,1779 @@
+2024-07-22 00:02:48.400 [background-preinit] INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+2024-07-22 00:02:48.427 [main] INFO  datart.DatartServerApplication : Starting DatartServerApplication using Java 1.8.0_281 on PC-20240227LCFW with PID 8980 (D:\project\github\datart-master\server\target\classes started by Administrator in D:\project\github\datart-master)
+2024-07-22 00:02:48.427 [main] INFO  datart.DatartServerApplication : The following profiles are active: config
+2024-07-22 00:02:49.922 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-07-22 00:02:49.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+2024-07-22 00:02:50.029 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 0 LDAP repository interfaces.
+2024-07-22 00:02:50.043 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-07-22 00:02:50.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-22 00:02:50.091 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2024-07-22 00:02:50.406 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$207f77f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.463 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration$$EnhancerBySpringCGLIB$$2312b69c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.766 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAutoConfiguration$$EnhancerBySpringCGLIB$$e67f19c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.772 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'securityConfiguration' of type [datart.security.manager.shiro.SecurityConfiguration$$EnhancerBySpringCGLIB$$458fed38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.850 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.861 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$403aeb77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$27128fb9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.868 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-22 00:02:50.934 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:50.996 [main] INFO  com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2024-07-22 00:02:50.996 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.043 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.090 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.098 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'userMapperExt' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.163 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'userMapperExt' of type [com.sun.proxy.$Proxy103] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.270 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'roleMapperExt' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.272 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'roleMapperExt' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.303 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'relRoleResourceMapperExt' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.304 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'relRoleResourceMapperExt' of type [com.sun.proxy.$Proxy110] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.336 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'requestScopePermissionDataCache' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.336 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'requestScopePermissionDataCache' of type [datart.security.manager.RequestScopePermissionDataCache$$EnhancerBySpringCGLIB$$2cc51463] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.338 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'threadScopePermissionDataCache' of type [datart.security.manager.ThreadScopePermissionDataCache] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'permissionDataCache' of type [datart.security.manager.PermissionDataCache] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'passwordCredentialsMatcher' of type [datart.security.manager.shiro.PasswordCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.352 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'realm' of type [datart.security.manager.shiro.DatartRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionStorageEvaluator' of type [org.apache.shiro.mgt.DefaultSessionStorageEvaluator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'subjectDAO' of type [org.apache.shiro.mgt.DefaultSubjectDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'subjectFactory' of type [org.apache.shiro.mgt.DefaultSubjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.375 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authenticationStrategy' of type [org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authenticator' of type [org.apache.shiro.authc.pam.ModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.378 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authorizer' of type [org.apache.shiro.authz.ModularRealmAuthorizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.381 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionFactory' of type [org.apache.shiro.session.mgt.SimpleSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.session.mgt.DefaultSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.mgt.DefaultSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.403 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-22 00:02:51.727 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2024-07-22 00:02:51.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-07-22 00:02:51.737 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-07-22 00:02:51.738 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2024-07-22 00:02:51.901 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-07-22 00:02:51.901 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3434 ms
+2024-07-22 00:02:54.733 [main] INFO  datart.core.migration.DatabaseMigration : The database has no version management , performs an baseline migration
+2024-07-22 00:02:54.776 [main] INFO  datart.core.migration.DatabaseMigration : Do baseline on an empty database...
+2024-07-22 00:02:54.885 [main] INFO  datart.core.migration.DatabaseMigration : SET NAMES utf8mb4
+
+2024-07-22 00:02:54.886 [main] INFO  datart.core.migration.DatabaseMigration : SET FOREIGN_KEY_CHECKS = 0
+
+2024-07-22 00:02:54.888 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:54.888 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_BLOB_TRIGGERS
+2024-07-22 00:02:54.888 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:54.888 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_BLOB_TRIGGERS`
+
+2024-07-22 00:02:54.969 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_BLOB_TRIGGERS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `BLOB_DATA` blob NULL,
+  PRIMARY KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) USING BTREE,
+  CONSTRAINT `qrtz_blob_triggers_ibfk_1` FOREIGN KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) REFERENCES `QRTZ_TRIGGERS` (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.242 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.243 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_CALENDARS
+2024-07-22 00:02:55.243 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.243 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_CALENDARS`
+
+2024-07-22 00:02:55.265 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_CALENDARS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `CALENDAR_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `CALENDAR` blob NOT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `CALENDAR_NAME`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.320 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.320 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_CRON_TRIGGERS
+2024-07-22 00:02:55.320 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.321 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_CRON_TRIGGERS`
+
+2024-07-22 00:02:55.336 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_CRON_TRIGGERS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `CRON_EXPRESSION` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TIME_ZONE_ID` varchar(80) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) USING BTREE,
+  CONSTRAINT `qrtz_cron_triggers_ibfk_1` FOREIGN KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) REFERENCES `QRTZ_TRIGGERS` (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.428 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.428 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_FIRED_TRIGGERS
+2024-07-22 00:02:55.429 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.429 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_FIRED_TRIGGERS`
+
+2024-07-22 00:02:55.433 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_FIRED_TRIGGERS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `ENTRY_ID` varchar(95) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `INSTANCE_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `FIRED_TIME` bigint(13) NOT NULL,
+  `SCHED_TIME` bigint(13) NOT NULL,
+  `PRIORITY` int(11) NOT NULL,
+  `STATE` varchar(16) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `JOB_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `JOB_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `IS_NONCONCURRENT` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `REQUESTS_RECOVERY` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `ENTRY_ID`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.516 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.516 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_JOB_DETAILS
+2024-07-22 00:02:55.517 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.517 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_JOB_DETAILS`
+
+2024-07-22 00:02:55.521 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_JOB_DETAILS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `JOB_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `JOB_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `DESCRIPTION` varchar(250) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `JOB_CLASS_NAME` varchar(250) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `IS_DURABLE` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `IS_NONCONCURRENT` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `IS_UPDATE_DATA` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `REQUESTS_RECOVERY` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `JOB_DATA` blob NULL,
+  PRIMARY KEY (`SCHED_NAME`, `JOB_NAME`, `JOB_GROUP`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.577 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.577 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_LOCKS
+2024-07-22 00:02:55.577 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.578 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_LOCKS`
+
+2024-07-22 00:02:55.581 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_LOCKS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `LOCK_NAME` varchar(40) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `LOCK_NAME`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.638 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.639 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_PAUSED_TRIGGER_GRPS
+2024-07-22 00:02:55.639 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.639 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_PAUSED_TRIGGER_GRPS`
+
+2024-07-22 00:02:55.642 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_PAUSED_TRIGGER_GRPS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `TRIGGER_GROUP`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.681 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.681 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_SCHEDULER_STATE
+2024-07-22 00:02:55.681 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.681 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_SCHEDULER_STATE`
+
+2024-07-22 00:02:55.685 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_SCHEDULER_STATE`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `INSTANCE_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `LAST_CHECKIN_TIME` bigint(13) NOT NULL,
+  `CHECKIN_INTERVAL` bigint(13) NOT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `INSTANCE_NAME`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.739 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.739 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_SIMPLE_TRIGGERS
+2024-07-22 00:02:55.739 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.739 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_SIMPLE_TRIGGERS`
+
+2024-07-22 00:02:55.743 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_SIMPLE_TRIGGERS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `REPEAT_COUNT` bigint(7) NOT NULL,
+  `REPEAT_INTERVAL` bigint(12) NOT NULL,
+  `TIMES_TRIGGERED` bigint(10) NOT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) USING BTREE,
+  CONSTRAINT `qrtz_simple_triggers_ibfk_1` FOREIGN KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) REFERENCES `QRTZ_TRIGGERS` (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.787 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.787 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_SIMPROP_TRIGGERS
+2024-07-22 00:02:55.788 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.788 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_SIMPROP_TRIGGERS`
+
+2024-07-22 00:02:55.792 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_SIMPROP_TRIGGERS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `STR_PROP_1` varchar(512) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `STR_PROP_2` varchar(512) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `STR_PROP_3` varchar(512) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `INT_PROP_1` int(11) NULL DEFAULT NULL,
+  `INT_PROP_2` int(11) NULL DEFAULT NULL,
+  `LONG_PROP_1` bigint(20) NULL DEFAULT NULL,
+  `LONG_PROP_2` bigint(20) NULL DEFAULT NULL,
+  `DEC_PROP_1` decimal(13, 4) NULL DEFAULT NULL,
+  `DEC_PROP_2` decimal(13, 4) NULL DEFAULT NULL,
+  `BOOL_PROP_1` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `BOOL_PROP_2` varchar(1) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) USING BTREE,
+  CONSTRAINT `qrtz_simprop_triggers_ibfk_1` FOREIGN KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) REFERENCES `QRTZ_TRIGGERS` (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:55.856 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.856 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for QRTZ_TRIGGERS
+2024-07-22 00:02:55.857 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:55.857 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `QRTZ_TRIGGERS`
+
+2024-07-22 00:02:55.860 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `QRTZ_TRIGGERS`  (
+  `SCHED_NAME` varchar(120) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `JOB_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `JOB_GROUP` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `DESCRIPTION` varchar(250) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `NEXT_FIRE_TIME` bigint(13) NULL DEFAULT NULL,
+  `PREV_FIRE_TIME` bigint(13) NULL DEFAULT NULL,
+  `PRIORITY` int(11) NULL DEFAULT NULL,
+  `TRIGGER_STATE` varchar(16) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `TRIGGER_TYPE` varchar(8) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `START_TIME` bigint(13) NOT NULL,
+  `END_TIME` bigint(13) NULL DEFAULT NULL,
+  `CALENDAR_NAME` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `MISFIRE_INSTR` smallint(2) NULL DEFAULT NULL,
+  `JOB_DATA` blob NULL,
+  PRIMARY KEY (`SCHED_NAME`, `TRIGGER_NAME`, `TRIGGER_GROUP`) USING BTREE,
+  INDEX `SCHED_NAME`(`SCHED_NAME`, `JOB_NAME`, `JOB_GROUP`) USING BTREE,
+  CONSTRAINT `qrtz_triggers_ibfk_1` FOREIGN KEY (`SCHED_NAME`, `JOB_NAME`, `JOB_GROUP`) REFERENCES `QRTZ_JOB_DETAILS` (`SCHED_NAME`, `JOB_NAME`, `JOB_GROUP`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.042 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.042 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for access_log
+2024-07-22 00:02:56.042 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.042 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `access_log`
+
+2024-07-22 00:02:56.053 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `access_log`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `user` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `resource_type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `resource_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `access_type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `access_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
+  `duration` int(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.095 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.095 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for dashboard
+2024-07-22 00:02:56.095 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.095 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `dashboard`
+
+2024-07-22 00:02:56.109 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `dashboard`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `thumbnail` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `status` tinyint(6) NOT NULL DEFAULT 1,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.193 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.193 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for datachart
+2024-07-22 00:02:56.193 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.193 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `datachart`
+
+2024-07-22 00:02:56.197 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `datachart`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `view_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `thumbnail` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `status` tinyint(6) NULL DEFAULT 1,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `view_id`(`view_id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.266 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.267 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for download
+2024-07-22 00:02:56.267 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.267 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `download`
+
+2024-07-22 00:02:56.271 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `download`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `path` varchar(512) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `last_download_time` timestamp(0) NULL DEFAULT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `create_by` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `status` tinyint(6) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `create_by`(`create_by`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.297 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.298 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for folder
+2024-07-22 00:02:56.298 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.298 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `folder`
+
+2024-07-22 00:02:56.301 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `folder`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `parent_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `index` double(16, 8) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `name_unique`(`name`, `org_id`, `parent_id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE,
+  INDEX `rel_id`(`rel_id`) USING BTREE,
+  INDEX `parent_id`(`parent_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.396 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.396 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for link
+2024-07-22 00:02:56.397 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.397 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `link`
+
+2024-07-22 00:02:56.401 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `link`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `rel_type` varchar(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `url` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `expiration` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.448 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.448 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for org_settings
+2024-07-22 00:02:56.448 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.448 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `org_settings`
+
+2024-07-22 00:02:56.453 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `org_settings`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `type` varchar(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.503 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.503 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for organization
+2024-07-22 00:02:56.503 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.504 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `organization`
+
+2024-07-22 00:02:56.508 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `organization`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `avatar` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `description` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `update_time` datetime(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `orgName`(`name`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.558 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.559 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_role_resource
+2024-07-22 00:02:56.559 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.559 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_role_resource`
+
+2024-07-22 00:02:56.563 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_role_resource`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `role_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `resource_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `resource_type` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `permission` int(11) NOT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `role_id_2`(`role_id`, `resource_id`, `resource_type`) USING BTREE,
+  INDEX `role_id`(`role_id`) USING BTREE,
+  INDEX `resource_id`(`resource_id`) USING BTREE,
+  INDEX `resource_type`(`resource_type`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.638 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.639 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_role_user
+2024-07-22 00:02:56.639 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.639 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_role_user`
+
+2024-07-22 00:02:56.644 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_role_user`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `user_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `role_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `user_role`(`user_id`, `role_id`) USING BTREE,
+  INDEX `user_id`(`user_id`) USING BTREE,
+  INDEX `role_id`(`role_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.688 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.688 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_subject_columns
+2024-07-22 00:02:56.688 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.688 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_subject_columns`
+
+2024-07-22 00:02:56.691 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_subject_columns`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `view_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `subject_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `subject_type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `column_permission` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `view_id`(`view_id`) USING BTREE,
+  INDEX `subject_id`(`subject_id`) USING BTREE,
+  INDEX `subject_type`(`subject_type`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.746 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.746 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_user_organization
+2024-07-22 00:02:56.746 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.746 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_user_organization`
+
+2024-07-22 00:02:56.750 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_user_organization`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `user_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `org_user`(`org_id`, `user_id`) USING BTREE,
+  INDEX `user_id`(`user_id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.809 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.809 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_variable_subject
+2024-07-22 00:02:56.809 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.809 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_variable_subject`
+
+2024-07-22 00:02:56.814 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_variable_subject`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `variable_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `subject_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `subject_type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `value` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
+  `use_default_value` tinyint(4) NOT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `user_var`(`variable_id`, `subject_type`, `subject_id`) USING BTREE,
+  INDEX `variable_id`(`variable_id`) USING BTREE,
+  INDEX `subject_id`(`subject_id`) USING BTREE,
+  INDEX `subject_type`(`subject_type`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.882 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.882 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_widget_element
+2024-07-22 00:02:56.882 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.882 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_widget_element`
+
+2024-07-22 00:02:56.886 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_widget_element`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `widget_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `rel_type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `rel_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `rel_id`(`rel_id`) USING BTREE,
+  INDEX `rel_type`(`rel_type`) USING BTREE,
+  INDEX `widget_id`(`widget_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.919 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.920 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for rel_widget_widget
+2024-07-22 00:02:56.920 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.920 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `rel_widget_widget`
+
+2024-07-22 00:02:56.923 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `rel_widget_widget`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `source_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `target_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `config` longtext CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `source_id`(`source_id`) USING BTREE,
+  INDEX `target_id`(`target_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.957 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.957 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for role
+2024-07-22 00:02:56.957 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.957 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `role`
+
+2024-07-22 00:02:56.960 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `role`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `type` varchar(16) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `avatar` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `ord_and_name`(`org_id`, `name`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE,
+  INDEX `type`(`type`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:56.991 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.991 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for schedule
+2024-07-22 00:02:56.991 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:56.991 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `schedule`
+
+2024-07-22 00:02:57.002 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `schedule`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `type` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `active` tinyint(4) NOT NULL,
+  `cron_expression` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `start_date` timestamp(0) NULL DEFAULT NULL,
+  `end_date` timestamp(0) NULL DEFAULT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `parent_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `is_folder` tinyint(1) NULL DEFAULT NULL,
+  `index` int(11) NULL DEFAULT NULL,
+  `status` tinyint(6) NOT NULL DEFAULT 1,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE,
+  INDEX `create_by`(`create_by`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.089 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.089 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for schedule_log
+2024-07-22 00:02:57.089 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.089 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `schedule_log`
+
+2024-07-22 00:02:57.092 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `schedule_log`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `schedule_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `start` timestamp(0) NULL DEFAULT NULL,
+  `end` timestamp(0) NULL DEFAULT NULL,
+  `status` int(11) NOT NULL,
+  `message` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `schedule_id`(`schedule_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.259 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.259 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for source
+2024-07-22 00:02:57.259 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.259 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `source`
+
+2024-07-22 00:02:57.262 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `source`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `type` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `status` tinyint(6) NOT NULL DEFAULT 1,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `org_name`(`name`, `org_id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.331 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.331 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for storyboard
+2024-07-22 00:02:57.331 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.331 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `storyboard`
+
+2024-07-22 00:02:57.340 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `storyboard`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `status` tinyint(6) NOT NULL DEFAULT 1,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.392 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.393 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for storypage
+2024-07-22 00:02:57.393 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.393 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `storypage`
+
+2024-07-22 00:02:57.396 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `storypage`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `storyboard_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_type` varchar(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `storyboard_id`(`storyboard_id`) USING BTREE,
+  INDEX `rel_type`(`rel_type`) USING BTREE,
+  INDEX `rel_id`(`rel_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.456 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.457 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for user
+2024-07-22 00:02:57.457 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.457 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `user`
+
+2024-07-22 00:02:57.460 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `user`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `password` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `active` tinyint(1) NULL DEFAULT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `avatar` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `username`(`username`) USING BTREE,
+  UNIQUE INDEX `email`(`email`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.572 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.572 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for user_settings
+2024-07-22 00:02:57.572 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.572 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `user_settings`
+
+2024-07-22 00:02:57.576 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `user_settings`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `user_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_type` varchar(128) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `rel_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `user_id`(`user_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.606 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.606 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for variable
+2024-07-22 00:02:57.606 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.606 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `variable`
+
+2024-07-22 00:02:57.618 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `variable`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `view_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `value_type` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `permission` int(11) NULL DEFAULT NULL,
+  `encrypt` tinyint(4) NULL DEFAULT NULL,
+  `label` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `default_value` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `expression` tinyint(4) NULL DEFAULT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `org_id`(`org_id`, `view_id`, `name`) USING BTREE,
+  INDEX `org_id_2`(`org_id`) USING BTREE,
+  INDEX `view_id`(`view_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.653 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.653 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for view
+2024-07-22 00:02:57.653 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.653 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `view`
+
+2024-07-22 00:02:57.656 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `view`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `source_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `script` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `model` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `config` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  `parent_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `is_folder` tinyint(1) NULL DEFAULT NULL,
+  `index` double(16, 8) NULL DEFAULT NULL,
+  `status` tinyint(6) NOT NULL DEFAULT 1,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `unique_name`(`name`, `org_id`, `parent_id`) USING BTREE,
+  INDEX `org_id`(`org_id`) USING BTREE,
+  INDEX `source_id`(`source_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.688 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.688 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for widget
+2024-07-22 00:02:57.689 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.689 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `widget`
+
+2024-07-22 00:02:57.692 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `widget`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `dashboard_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `config` longtext CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `parent_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` timestamp(0) NULL DEFAULT NULL,
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `update_time` timestamp(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `dashboard_id`(`dashboard_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:57.753 [main] INFO  datart.core.migration.DatabaseMigration : SET FOREIGN_KEY_CHECKS = 1
+
+2024-07-22 00:02:57.929 [main] INFO  datart.core.migration.DatabaseMigration : start migration, version: 1.0.0.beta.2
+2024-07-22 00:02:57.962 [main] INFO  datart.core.migration.DatabaseMigration : SET NAMES utf8
+
+2024-07-22 00:02:57.963 [main] INFO  datart.core.migration.DatabaseMigration : SET FOREIGN_KEY_CHECKS = 0
+
+2024-07-22 00:02:57.964 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.964 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for source_schemas
+2024-07-22 00:02:57.964 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:57.964 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `source_schemas`
+
+2024-07-22 00:02:57.996 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `source_schemas`  (
+                                   `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                                   `source_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                                   `schemas` longtext CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+                                   `update_time` datetime(0) NULL DEFAULT NULL,
+                                   PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:58.046 [main] INFO  datart.core.migration.DatabaseMigration : SET FOREIGN_KEY_CHECKS = 1
+
+2024-07-22 00:02:58.047 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `folder`
+    ADD COLUMN `sub_type` varchar(255) NULL AFTER `rel_type`,
+    ADD COLUMN `avatar` varchar(255) NULL AFTER `rel_id`
+
+2024-07-22 00:02:58.280 [main] INFO  datart.core.migration.DatabaseMigration : Migration success! version: 1.0.0.beta.2
+2024-07-22 00:02:58.280 [main] INFO  datart.core.migration.DatabaseMigration : start migration, version: 1.0.0.beta.3
+2024-07-22 00:02:58.330 [main] INFO  datart.core.migration.DatabaseMigration : SET FOREIGN_KEY_CHECKS = 0
+
+2024-07-22 00:02:58.331 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:58.331 [main] INFO  datart.core.migration.DatabaseMigration : -- Table structure for share
+2024-07-22 00:02:58.331 [main] INFO  datart.core.migration.DatabaseMigration : -- ----------------------------
+2024-07-22 00:02:58.331 [main] INFO  datart.core.migration.DatabaseMigration : DROP TABLE IF EXISTS `share`
+
+2024-07-22 00:02:58.341 [main] INFO  datart.core.migration.DatabaseMigration : CREATE TABLE `share`  (
+                          `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `org_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `viz_type` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `viz_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `authentication_mode` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `roles` text CHARACTER SET utf8 COLLATE utf8_general_ci,
+                          `row_permission_by` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `authentication_code` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+                          `expiry_date` timestamp NULL DEFAULT NULL,
+                          `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+                          `create_time` timestamp NULL DEFAULT NULL,
+                          PRIMARY KEY (`id`) USING BTREE,
+                          KEY `viz_id` (`viz_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+2024-07-22 00:02:58.404 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `source`
+    ADD COLUMN `parent_id` varchar(32) NULL AFTER `org_id`,
+    ADD COLUMN `is_folder` tinyint(1) NULL AFTER `parent_id`,
+    ADD COLUMN `index` double(16, 8) NULL AFTER `is_folder`
+
+2024-07-22 00:02:58.469 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `schedule`
+    MODIFY COLUMN `index` double(16, 8) NULL DEFAULT NULL AFTER `is_folder`
+
+2024-07-22 00:02:58.670 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `variable`
+    ADD COLUMN `source_id` varchar(32) NULL AFTER `view_id`,
+    ADD COLUMN `format` varchar(255) NULL AFTER `value_type`
+
+2024-07-22 00:02:58.703 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `variable`
+    ADD INDEX `source_id`(`source_id`) USING BTREE
+
+2024-07-22 00:02:58.915 [main] INFO  datart.core.migration.DatabaseMigration : DELETE FROM `source_schemas`
+WHERE id IN
+      (SELECT temp.id FROM (
+                            SELECT id FROM `source_schemas`
+                            WHERE source_id IN
+                                  (SELECT source_id FROM `source_schemas` GROUP BY source_id HAVING count(*) > 1)
+                              AND id NOT IN
+                                  (SELECT max(id) FROM `source_schemas` GROUP BY source_id HAVING count(*) > 1)
+                        ) temp )
+
+2024-07-22 00:02:58.980 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `source_schemas`
+    ADD UNIQUE INDEX `source_id`(`source_id`) USING BTREE
+
+2024-07-22 00:02:59.043 [main] INFO  datart.core.migration.DatabaseMigration : SET FOREIGN_KEY_CHECKS = 1
+
+2024-07-22 00:02:59.103 [main] INFO  datart.core.migration.DatabaseMigration : Migration success! version: 1.0.0.beta.3
+2024-07-22 00:02:59.104 [main] INFO  datart.core.migration.DatabaseMigration : start migration, version: 1.0.0.beta.4
+2024-07-22 00:02:59.218 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `storyboard`
+    ADD COLUMN `parent_id` varchar(32) NULL AFTER `org_id`,
+    ADD COLUMN `is_folder` tinyint(1) NULL AFTER `parent_id`,
+    ADD COLUMN `index` double(16, 8) NULL AFTER `is_folder`
+
+2024-07-22 00:02:59.319 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `view`
+    ADD COLUMN `type` varchar(32) NULL AFTER `script`
+
+2024-07-22 00:02:59.410 [main] INFO  datart.core.migration.DatabaseMigration : Migration success! version: 1.0.0.beta.4
+2024-07-22 00:02:59.410 [main] INFO  datart.core.migration.DatabaseMigration : start migration, version: 1.0.0.rc.1
+2024-07-22 00:02:59.444 [main] INFO  datart.core.migration.DatabaseMigration : ALTER TABLE `share`
+    MODIFY COLUMN `create_by` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER `expiry_date`
+
+2024-07-22 00:02:59.677 [main] INFO  datart.core.migration.DatabaseMigration : Migration success! version: 1.0.0.rc.1
+2024-07-22 00:02:59.677 [main] INFO  datart.core.migration.DatabaseMigration : The migration is complete , The latest database version is 1.0.0.rc.1
+2024-07-22 00:03:00.082 [main] INFO  o.s.ldap.core.support.AbstractContextSource : Property 'userDn' not set - anonymous context will be used for read-write operations
+2024-07-22 00:03:00.758 [main] INFO  org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2024-07-22 00:03:00.768 [main] INFO  org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-22 00:03:00.769 [main] INFO  org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2024-07-22 00:03:00.772 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : Using db table-based data access locking (synchronization).
+2024-07-22 00:03:00.773 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : JobStoreCMT initialized.
+2024-07-22 00:03:00.774 [main] INFO  org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DatartScheduleCluster' with instanceId 'PC-20240227LCFW1721577780759'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2024-07-22 00:03:00.774 [main] INFO  org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'DatartScheduleCluster' initialized from an externally provided properties instance.
+2024-07-22 00:03:00.774 [main] INFO  org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2024-07-22 00:03:00.774 [main] INFO  org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3ea48c37
+2024-07-22 00:03:02.597 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-07-22 00:03:02.740 [main] INFO  o.s.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/api/v1/tpa'] with []
+2024-07-22 00:03:02.794 [main] INFO  o.s.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec7eb5, org.springframework.security.web.context.SecurityContextPersistenceFilter@45c408a4, org.springframework.security.web.header.HeaderWriterFilter@7a3a49e5, org.springframework.security.web.authentication.logout.LogoutFilter@97beeaf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@543da15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21c99abf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5534e6f1, org.springframework.security.web.session.SessionManagementFilter@16f4a3c0, org.springframework.security.web.access.ExceptionTranslationFilter@4a7db5a]
+2024-07-22 00:03:03.113 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-22 00:03:03.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-07-22 00:03:03.737 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 00:03:03.738 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2024-07-22 00:03:03.755 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-07-22 00:03:04.091 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2024-07-22 00:03:04.729 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: executeUsingPOST_1
+2024-07-22 00:03:04.885 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: downloadFileUsingGET_1
+2024-07-22 00:03:04.899 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: executeUsingPOST_2
+2024-07-22 00:03:05.185 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: checkNameUsingPOST_1
+2024-07-22 00:03:05.194 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2024-07-22 00:03:05.211 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: getSubjectVariableValuesUsingGET_1
+2024-07-22 00:03:05.270 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: listArchivedUsingGET_1
+2024-07-22 00:03:05.280 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: unarchiveUsingPUT_1
+2024-07-22 00:03:05.618 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: getDatachartUsingGET_1
+2024-07-22 00:03:05.677 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader : Trying to infer dataType datart.server.base.transfer.ImportStrategy
+2024-07-22 00:03:05.978 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2024-07-22 00:03:06.068 [main] INFO  org.quartz.core.QuartzScheduler : Scheduler DatartScheduleCluster_$_PC-20240227LCFW1721577780759 started.
+2024-07-22 00:03:06.099 [main] INFO  datart.DatartServerApplication : Started DatartServerApplication in 18.209 seconds (JVM running for 19.772)
+2024-07-22 00:03:06.100 [main] INFO  datart.server.config.AppModeStartConfig : The application is running in PLATFORM tenant-management-mode.
+2024-07-22 00:04:51.670 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 105561
+2024-07-22 00:07:47.934 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 176048
+2024-07-22 00:09:10.522 [http-nio-0.0.0.0-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22 00:09:10.522 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-07-22 00:09:10.524 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2024-07-22 00:09:38.744 [http-nio-0.0.0.0-8080-exec-2] INFO  datart.server.service.impl.UserServiceImpl : Create default organization for user(yunmiao)
+2024-07-22 00:09:38.753 [http-nio-0.0.0.0-8080-exec-2] INFO  datart.server.service.impl.UserServiceImpl : Init organization(yunmiao's Organization)
+2024-07-22 00:09:38.918 [http-nio-0.0.0.0-8080-exec-2] INFO  datart.server.service.impl.SysServiceImpl : The application is initialized with User(yunmiao).
+2024-07-22 00:09:45.145 [http-nio-0.0.0.0-8080-exec-8] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2024-07-22 00:09:46.351 [http-nio-0.0.0.0-8080-exec-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 99193
+2024-07-22 00:09:53.298 [http-nio-0.0.0.0-8080-exec-9] WARN  org.apache.ibatis.io.SerialFilterChecker : As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+2024-07-22 00:18:32.540 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] ERROR com.alibaba.druid.pool.DruidDataSource : discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-22 00:18:32.540 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] WARN  o.s.scheduling.quartz.LocalDataSourceJobStore : Failed to override connection auto commit/transaction isolation.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-22 00:18:32.541 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] WARN  o.q.i.j.AttributeRestoringConnectionInvocationHandler : Failed restore connection's original auto commit setting.
+java.sql.SQLException: connection disabled
+	at com.alibaba.druid.pool.DruidPooledConnection.checkStateInternal(DruidPooledConnection.java:1170)
+	at com.alibaba.druid.pool.DruidPooledConnection.checkState(DruidPooledConnection.java:1155)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:703)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.restoreOriginalAtributes(AttributeRestoringConnectionInvocationHandler.java:141)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.cleanupConnection(JobStoreSupport.java:3677)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3363)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	... 2 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-22 00:18:32.542 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] ERROR o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Error managing cluster: Failure identifying failed instances when checking-in: connection disabled
+org.quartz.JobPersistenceException: Failure identifying failed instances when checking-in: connection disabled
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3420)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.clusterCheckIn(JobStoreSupport.java:3470)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3330)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: java.sql.SQLException: connection disabled
+	at com.alibaba.druid.pool.DruidPooledConnection.checkStateInternal(DruidPooledConnection.java:1170)
+	at com.alibaba.druid.pool.DruidPooledConnection.checkState(DruidPooledConnection.java:1155)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:338)
+	at sun.reflect.GeneratedMethodAccessor127.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy238.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectSchedulerStateRecords(StdJDBCDelegate.java:2992)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3384)
+	... 4 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2061)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:714)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.setAutoCommit(AttributeRestoringConnectionInvocationHandler.java:98)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:66)
+	at com.sun.proxy.$Proxy238.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:191)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	... 2 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 125,080 milliseconds ago. The last packet sent successfully to the server was 125,080 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:546)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:710)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:649)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:948)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:894)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2051)
+	... 8 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1228)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:75)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:915)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:540)
+	... 14 common frames omitted
+2024-07-22 01:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 01:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 02:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 02:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 03:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 03:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 04:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 04:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 05:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 05:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 06:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 06:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 07:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 07:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 08:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 08:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 09:09:45.146 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 09:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 10:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 10:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 10:13:58.439 [http-nio-0.0.0.0-8080-exec-6] ERROR datart.security.manager.shiro.ShiroSecurityManager : Login error (yunmiao)
+2024-07-22 10:13:58.440 [http-nio-0.0.0.0-8080-exec-6] INFO  datart.server.service.impl.UserServiceImpl : try to login with ldap (yunmiao).
+2024-07-22 10:14:00.511 [http-nio-0.0.0.0-8080-exec-6] ERROR datart.server.service.impl.UserServiceImpl : Login error (yunmiao WXY2357956wxy)
+2024-07-22 10:14:00.517 [http-nio-0.0.0.0-8080-exec-6] ERROR datart.server.config.WebExceptionHandler : 登录失败,用户名或密码错误
+datart.core.base.exception.BaseException: 登录失败,用户名或密码错误
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at datart.core.base.exception.Exceptions.tr(Exceptions.java:52)
+	at datart.core.base.exception.Exceptions.msg(Exceptions.java:28)
+	at datart.server.service.impl.UserServiceImpl.login(UserServiceImpl.java:289)
+	at datart.server.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$e1febc9e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at datart.server.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$5836c181.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy128.login(Unknown Source)
+	at datart.server.controller.UserController.login(UserController.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-07-22 10:14:04.882 [http-nio-0.0.0.0-8080-exec-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 223118
+2024-07-22 11:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 11:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 11:48:50.054 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1420752
+2024-07-22 12:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 12:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 12:13:20.850 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 1470785
+2024-07-22 13:09:45.146 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 13:09:45.146 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 14:05:38.222 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 378922
+2024-07-22 14:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 14:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 15:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 15:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 15:12:14.459 [http-nio-0.0.0.0-8080-exec-8] ERROR datart.security.manager.shiro.ShiroSecurityManager : Login error (yunmiao)
+2024-07-22 15:12:14.460 [http-nio-0.0.0.0-8080-exec-8] INFO  datart.server.service.impl.UserServiceImpl : try to login with ldap (yunmiao).
+2024-07-22 15:12:16.506 [http-nio-0.0.0.0-8080-exec-8] ERROR datart.server.service.impl.UserServiceImpl : Login error (yunmiao WXY2357956wxy)
+2024-07-22 15:12:16.507 [http-nio-0.0.0.0-8080-exec-8] ERROR datart.server.config.WebExceptionHandler : 登录失败,用户名或密码错误
+datart.core.base.exception.BaseException: 登录失败,用户名或密码错误
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at datart.core.base.exception.Exceptions.tr(Exceptions.java:52)
+	at datart.core.base.exception.Exceptions.msg(Exceptions.java:28)
+	at datart.server.service.impl.UserServiceImpl.login(UserServiceImpl.java:289)
+	at datart.server.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$e1febc9e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at datart.server.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$5836c181.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy128.login(Unknown Source)
+	at datart.server.controller.UserController.login(UserController.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-07-22 15:12:19.859 [http-nio-0.0.0.0-8080-exec-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 353404
+2024-07-22 16:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 16:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 17:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 17:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 18:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 18:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 19:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 19:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 20:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 20:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 21:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 21:09:45.148 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 21:14:38.337 [DatartScheduleCluster_QuartzSchedulerThread] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 300001
+2024-07-22 22:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 22:09:45.147 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 23:09:49.535 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Validating all active sessions...
+2024-07-22 23:09:49.536 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
+2024-07-22 23:43:05.056 [http-nio-0.0.0.0-8080-exec-8] ERROR datart.server.config.WebExceptionHandler : java.sql.SQLException: Access denied for user ''@'192.168.190.1' (using password: NO)
+datart.core.base.exception.BaseException: java.sql.SQLException: Access denied for user ''@'192.168.190.1' (using password: NO)
+	at datart.core.base.exception.Exceptions.e(Exceptions.java:44)
+	at datart.data.provider.jdbc.adapters.JdbcDataProviderAdapter.test(JdbcDataProviderAdapter.java:108)
+	at datart.data.provider.JdbcDataProvider.test(JdbcDataProvider.java:67)
+	at datart.data.provider.ProviderManager.testConnection(ProviderManager.java:99)
+	at datart.server.service.impl.DataProviderServiceImpl.testConnection(DataProviderServiceImpl.java:122)
+	at datart.server.controller.DataProviderController.testConnection(DataProviderController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Access denied for user ''@'192.168.190.1' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at datart.data.provider.jdbc.adapters.JdbcDataProviderAdapter.test(JdbcDataProviderAdapter.java:106)
+	... 86 common frames omitted
+2024-07-22 23:43:24.099 [pool-2-thread-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 74249
+2024-07-22 23:43:24.109 [pool-2-thread-1] INFO  d.data.provider.jdbc.DataSourceFactoryDruidImpl : druid data source created (DataSource-1258960163)
+2024-07-22 23:43:24.117 [pool-2-thread-1] INFO  com.alibaba.druid.pool.DruidDataSource : {dataSource-2} inited
+2024-07-22 23:43:24.134 [http-nio-0.0.0.0-8080-exec-4] INFO  datart.server.service.impl.SourceServiceImpl : jdbc source schema job has been created 4280db2234e843a382d6f9a4048774c8 - workstation-MYSQL - interval 60 
+2024-07-22 23:43:26.810 [pool-2-thread-1] ERROR datart.server.job.SchemaSyncJob : source schema parse error 
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4280db2234e843a382d6f9a4048774c8' for key 'source_schemas.source_id'
+### The error may exist in datart/core/mappers/ext/SourceSchemasMapperExt.java (best guess)
+### The error may involve datart.core.mappers.ext.SourceSchemasMapperExt.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into source_schemas (id, source_id,  `schemas`, update_time) values (?, ?,  ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4280db2234e843a382d6f9a4048774c8' for key 'source_schemas.source_id'
+; Duplicate entry '4280db2234e843a382d6f9a4048774c8' for key 'source_schemas.source_id'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4280db2234e843a382d6f9a4048774c8' for key 'source_schemas.source_id'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:247)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy93.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy193.insert(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy194.insert(Unknown Source)
+	at datart.server.job.SchemaSyncJob.upsertSchemaInfo(SchemaSyncJob.java:113)
+	at datart.server.job.SchemaSyncJob.execute(SchemaSyncJob.java:99)
+	at datart.server.service.impl.SourceServiceImpl.lambda$updateJdbcSourceSyncJob$2(SourceServiceImpl.java:464)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4280db2234e843a382d6f9a4048774c8' for key 'source_schemas.source_id'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 25 common frames omitted
+2024-07-22 23:44:04.301 [http-nio-0.0.0.0-8080-exec-2] ERROR datart.server.config.WebExceptionHandler : 不允许的SQL操作  show tables datart 
+datart.data.provider.base.DataProviderException: 不允许的SQL操作  show tables datart 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at datart.core.base.exception.Exceptions.tr(Exceptions.java:52)
+	at datart.data.provider.calcite.SqlValidateUtils.validateQuery(SqlValidateUtils.java:107)
+	at datart.data.provider.calcite.SqlQueryScriptProcessor.parseSelectSql(SqlQueryScriptProcessor.java:114)
+	at datart.data.provider.calcite.SqlQueryScriptProcessor.process(SqlQueryScriptProcessor.java:81)
+	at datart.data.provider.jdbc.SqlScriptRender.render(SqlScriptRender.java:81)
+	at datart.data.provider.jdbc.adapters.JdbcDataProviderAdapter.getQueryKey(JdbcDataProviderAdapter.java:187)
+	at datart.data.provider.JdbcDataProvider.getQueryKey(JdbcDataProvider.java:213)
+	at datart.data.provider.ProviderManager.execute(ProviderManager.java:129)
+	at datart.server.service.impl.DataProviderServiceImpl.testExecute(DataProviderServiceImpl.java:210)
+	at datart.server.controller.DataProviderController.testExecute(DataProviderController.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-07-22 23:44:19.068 [http-nio-0.0.0.0-8080-exec-5] ERROR datart.server.config.WebExceptionHandler : 不允许的SQL操作  show databases 
+datart.data.provider.base.DataProviderException: 不允许的SQL操作  show databases 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at datart.core.base.exception.Exceptions.tr(Exceptions.java:52)
+	at datart.data.provider.calcite.SqlValidateUtils.validateQuery(SqlValidateUtils.java:107)
+	at datart.data.provider.calcite.SqlQueryScriptProcessor.parseSelectSql(SqlQueryScriptProcessor.java:114)
+	at datart.data.provider.calcite.SqlQueryScriptProcessor.process(SqlQueryScriptProcessor.java:81)
+	at datart.data.provider.jdbc.SqlScriptRender.render(SqlScriptRender.java:81)
+	at datart.data.provider.jdbc.adapters.JdbcDataProviderAdapter.getQueryKey(JdbcDataProviderAdapter.java:187)
+	at datart.data.provider.JdbcDataProvider.getQueryKey(JdbcDataProvider.java:213)
+	at datart.data.provider.ProviderManager.execute(ProviderManager.java:129)
+	at datart.server.service.impl.DataProviderServiceImpl.testExecute(DataProviderServiceImpl.java:210)
+	at datart.server.controller.DataProviderController.testExecute(DataProviderController.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-07-22 23:46:01.069 [http-nio-0.0.0.0-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 142976
+2024-07-22 23:46:01.070 [http-nio-0.0.0.0-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 156827
+2024-07-22 23:47:35.152 [http-nio-0.0.0.0-8080-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 94073
+2024-07-22 23:57:43.311 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 572914
+2024-07-22 23:57:43.313 [QuartzScheduler_DatartScheduleCluster-PC-20240227LCFW1721577780759_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.190.134:3306/datart?&allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 572918
