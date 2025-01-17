@@ -2,9 +2,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://${datasource.ip:null}:${datasource.port:3306}/${datasource.database:datart}?&allowMultiQueries=true&characterEncoding=utf-8
-    username: ${datasource.username:root}
-    password: ${datasource.password:123456}
+    url: jdbc:mysql://10.12.51.22:3306/datart_wxy?&allowMultiQueries=true&characterEncoding=utf-8
+    username: root
+    password: root
 
 # security:
 #   oauth2:
@@ -42,36 +42,38 @@ spring:
 
 # mail config
 
-# mail:
-#   host: { 邮箱服务地址 }
-#   port: { 端口号 }
-#   username: { 邮箱地址 }
-#   fromAddress:
-#   password: { 邮箱服务密码 }
-#   senderName: { 发送者昵称 }
-#
-#   properties:
-#     smtp:
-#       starttls:
-#         enable: true
-#         required: true
-#       auth: true
-#     mail:
-#       smtp:
-#         ssl:
-#           enable: true
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 2893267956@qq.com
+    password: sycozagcgszfddcc
+    senderName: yunmiaosDatart
+
+    properties:
+      smtp:
+        starttls:
+          enable: true
+          required: true
+        auth: true
+      mail:
+        smtp:
+          ssl:
+            enable: true
 
 
 # redis config
 
-#  redis:
-#    port: 6379
-#    host: { HOST }
+  redis:
+    port: 16379
+    host: 58.87.64.184
+    database: 0
+    password: 2357956
+
 
 
 server:
-  port: ${server.port:8080}
-  address: ${server.ip:0.0.0.0}
+  port: 8080
+  address: localhost
   ssl:
     enabled: false
     key-store: keystore.p12 # Absolute path
@@ -83,7 +85,7 @@ datart:
   migration:
     enable: true # 是否开启数据库自动升级
   server:
-    address: ${datart.address:http://127.0.0.1:8080}
+    address: http://localhost:8080
 
   # 租户管理模式：platform-平台(默认)，team-团队
   tenant-management-mode: platform
@@ -91,10 +93,10 @@ datart:
   user:
     register: true # 是否允许注册
     active:
-      send-mail: ${datart.send-mail:false}  # 注册用户时是否需要邮件验证激活
-      expire-hours: ${datart.register.expire-hours:48} # 注册邮件有效期/小时
+      send-mail: false  # 注册用户时是否需要邮件验证激活
+      expire-hours: 48 # 注册邮件有效期/小时
     invite:
-      expire-hours: ${datart.invite.expire-hours:48} # 邀请邮件有效期/小时
+      expire-hours: 48 # 邀请邮件有效期/小时
 
   security:
     token:
@@ -102,7 +104,7 @@ datart:
       timeout-min: 30  # 登录会话有效时长，单位：分钟。
 
   env:
-    file-path: ${user.dir}/files # 服务端文件保存位置
+    file-path: D:\project\datart\datart\files # 服务端文件保存位置
 
   screenshot:
     timeout-seconds: 60
