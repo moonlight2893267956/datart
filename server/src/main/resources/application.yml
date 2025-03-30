@@ -48,8 +48,6 @@ spring:
             class: org.quartz.simpl.SimpleThreadPool
             threadCount: 10
             threadPriority: 5
-  profiles:
-    active: config
 
 mybatis:
   type-aliases-package: datart.core.entity
